@@ -1,0 +1,52 @@
+.modal-form div{
+    margin: 15px 0;
+}
+
+.modal-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal-form .form-input{
+    padding: 8px;
+    width: 100%;
+}
+
+.form-input:focus{
+    background-color: rgb(251, 253, 255);
+    outline: none;
+    border: 1px solid rgb(137, 136, 216);
+}
+button, input[type='submit']{
+    background-color: white;
+    border: 1px solid rgb(180, 173, 173);
+    border-radius: 5px;
+    color: rgb(17, 32, 175);
+    cursor: pointer;
+    padding: 8px 12px;
+}
+button:hover{
+    border: 1px solid green;
+    background-color: rgb(17, 32, 175);
+    color: white;
+}
+
+.msg{
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    width: 340px;
+    padding:3px;
+    font-size:16px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+    color: rgb(5, 110, 5);
+    background-color: white;
+  }
+  
+  .msgAppear{
+    display: block;
+  }
